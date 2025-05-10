@@ -1,0 +1,1 @@
+console.log("Walking Tours site loaded successfully.");
