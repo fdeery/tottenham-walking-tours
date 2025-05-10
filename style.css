@@ -1,67 +1,83 @@
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fafafa; /* Light neutral background */
+  color: #4a4a4a; /* Dark gray for better readability */
 }
 
 header {
-  background-color: #003366;
+  background-color: #1f2a44; /* Dark blue, more refined */
   color: white;
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
   text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted look */
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem; /* Larger title for better impact */
+  font-weight: 700;
 }
 
 nav {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 nav a {
   color: white;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6b6b; /* Soft pink hover effect */
 }
 
 main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 3rem;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
 }
 
 .hero h2 {
-  font-size: 1.8rem;
-  color: #003366;
+  font-size: 2rem;
+  color: #1f2a44; /* Matching the header color */
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .cta-button {
   display: inline-block;
-  margin-top: 1rem;
-  background-color: #ff6b6b;
+  margin-top: 1.5rem;
+  background-color: #ff6b6b; /* Modern coral color */
   color: white;
-  padding: 0.75rem 1.25rem;
-  border-radius: 6px;
+  padding: 1rem 2rem;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  transition: background 0.3s ease;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover {
   background-color: #ff4b4b;
+  transform: translateY(-3px); /* Slight lifting effect on hover */
 }
 
 .info h3 {
   margin-top: 2rem;
-  font-size: 1.5rem;
-  color: #003366;
+  font-size: 1.75rem;
+  color: #1f2a44;
+  font-weight: 600;
 }
 
 ul {
@@ -70,27 +86,33 @@ ul {
 }
 
 ul li {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
+  margin: 0.8rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #003366;
+  padding: 1.5rem;
+  background-color: #1f2a44;
   color: white;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 600px) {
   nav a {
     display: block;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
 
   .cta-button {
     display: block;
     text-align: center;
+    width: 100%;
+  }
+
+  main {
+    padding: 2rem;
   }
 }
-
