@@ -17,6 +17,9 @@ header h1 {
   margin: 0;
   font-size: 2.5rem; /* Larger title for better impact */
   font-weight: 700;
+  font-family: 'Share Tech', sans-serif
+}
+
 }
 
 nav {
