@@ -28,7 +28,8 @@ header h1 {
 }
 
 nav {
-  margin-top: 100.5rem;
+  margin-top: 1.5rem;
+  padding: 3rem;
 }
 
 nav a {
