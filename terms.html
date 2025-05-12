@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Terms and Conditions</title>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Maven+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+  
 <body>
   <!-- Reusable header placeholder -->
   <div id="site-header"></div>
@@ -46,5 +46,13 @@
   <footer>
     <p>&copy; 2025 Tottenham Walking Tours. All rights reserved.</p>
   </footer>
+
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-header').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
