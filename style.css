@@ -125,7 +125,7 @@ footer {
 .hero-image img {
   width: 100%;           /* Scale to the full width of the container */
   height: auto;          /* Maintain aspect ratio */
-  max-height: 400px;     /* Optional: prevent it from being too tall */
+  max-height: 600px;     /* Optional: prevent it from being too tall */
   object-fit: cover;     /* Optional: crop to fill container without distortion */
   display: block;        /* Removes small gap below image */
   margin: 0 auto;        /* Center horizontally if needed */
