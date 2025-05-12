@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<div id="site-header"></div>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-  
+
 <body>
+  <!-- Reusable header placeholder -->
+  <div id="site-header"></div>
+
+  <!-- Page-specific content -->
   <main>
+    <h2>Contact</h2>
     <form action="https://formspree.io/f/xzzrvqlp" method="POST">
       <label>Name:<br><input type="text" name="name" required></label><br><br>
       <label>Email:<br><input type="email" name="_replyto" required></label><br><br>
@@ -21,5 +25,14 @@
   <footer>
     <p>&copy; 2025 Walking Tours</p>
   </footer>
+
+  <!-- Load header via JavaScript -->
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-header').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
