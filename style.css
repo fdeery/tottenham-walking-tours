@@ -44,7 +44,7 @@ main {
   margin: 1.5rem auto;
   padding: 1.5rem;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 6px;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
 }
 
@@ -52,6 +52,7 @@ main {
   font-size: 2rem;
   color: #1f2a44; /* Matching the header color */
   font-weight: 600;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -68,6 +69,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
 }
 
 .cta-button:hover {
