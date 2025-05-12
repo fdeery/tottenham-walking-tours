@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
 <body>
   <div id="site-header"></div>
@@ -25,6 +31,14 @@
   <footer>
     <p>&copy; 2025 Tottenham Walking Tours. All rights reserved. | <a href="terms.html">Terms and Conditions</a></p>
   </footer>
+  
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-header').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
 
