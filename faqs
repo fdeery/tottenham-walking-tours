@@ -1,0 +1,58 @@
+<!-- terms.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Frequently Asked Questions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+  
+<body>
+  <!-- Reusable header placeholder -->
+  <div id="site-header"></div>
+
+  <main>
+    <section class="info">
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>Last updated:</strong> May 2025</p>
+
+        <h3>Where is the meeting point?</h3>
+        <p>[INSERT ANSWER]</p>
+
+        <h3>How long is the tour (time)?</h3>
+        <p>[INSERT ANSWER]</p>
+
+        <h3>How far will we walk in total (distance)?</h3>
+        <p>[INSERT ANSWER]</p>
+
+        <h3>Will there be any breaks?</h3>
+        <p>[INSERT ANSWER]</p>
+
+        <h3>What should I wear?</h3>
+        <p>[INSERT ANSWER]</p>
+
+        <h3>Can I take photos?</h3>
+        <p>[INSERT ANSWER]</p>
+
+        <h3>Where does the tour finish?</h3>
+        <p>[INSERT ANSWER]</p>
+
+      <p>If you have questions, <a href="https://fdeery.github.io/tottenham-walking-tours/contact.html">contact us</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tottenham Walking Tours. All rights reserved.</p>
+  </footer>
+
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-header').innerHTML = data;
+      });
+  </script>
+</body>
+</html>
