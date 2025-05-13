@@ -43,10 +43,6 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Tottenham Walking Tours. All rights reserved.</p>
-  </footer>
-
   <script>
     fetch('header.html')
       .then(response => response.text())
@@ -54,5 +50,14 @@
         document.getElementById('site-header').innerHTML = data;
       });
   </script>
+
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-footer').innerHTML = data;
+      });
+  </script>
+  
 </body>
 </html>
