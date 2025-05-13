@@ -109,6 +109,15 @@ footer {
   font-size: 1rem;
 }
 
+footer a {
+  color: #ff6b6b;
+  text-decoration: none; /* optional: removes underline */
+}
+
+footer a:hover {
+  color: #ff4b4b; /* optional hover effect */
+}
+
 @media (max-width: 600px) {
   nav a {
     display: block;
