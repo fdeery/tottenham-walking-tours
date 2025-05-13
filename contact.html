@@ -22,13 +22,16 @@
     </form>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Walking Tours</p>
-  </footer>
-
   <!-- Load header via JavaScript -->
   <script>
     fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-header').innerHTML = data;
+      });
+  </script>
+  <script>
+    fetch('footer.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('site-header').innerHTML = data;
