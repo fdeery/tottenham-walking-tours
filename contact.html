@@ -8,10 +8,9 @@
 </head>
 
 <body>
-  <!-- Reusable header placeholder -->
+
   <div id="site-header"></div>
 
-  <!-- Page-specific content -->
   <main>
     <h2>Contact</h2>
     <form action="https://formspree.io/f/xzzrvqlp" method="POST">
@@ -22,7 +21,6 @@
     </form>
   </main>
 
-  <!-- Load header via JavaScript -->
   <script>
     fetch('header.html')
       .then(response => response.text())
@@ -38,6 +36,8 @@
         document.getElementById('site-footer').innerHTML = data;
       });
   </script>
+
+  <div id="site-footer"></div>
   
 </body>
 </html>
