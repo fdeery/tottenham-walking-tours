@@ -26,9 +26,12 @@
         document.getElementById('site-header').innerHTML = data;
       });
   </script>
-
-  <footer>
-    <p>&copy; 2025 Walking Tours</p>
-  </footer>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('site-header').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
