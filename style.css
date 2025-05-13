@@ -56,6 +56,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.button-container {
+  text-align: center;
+}
+
 .cta-button {
   display: inline-block;
   margin-top: 1.5rem;
