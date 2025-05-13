@@ -82,9 +82,16 @@ main {
   transform: translateY(-3px); /* Slight lifting effect on hover */
 }
 
-.info h3 {
+.info h2 {
   margin-top: 2rem;
   font-size: 1.75rem;
+  color: #1f2a44;
+  font-weight: 600;
+}
+
+.info h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
   color: #1f2a44;
   font-weight: 600;
 }
