@@ -127,6 +127,10 @@ footer {
   font-size: 1rem;
 }
 
+footer a {
+  color: white;
+}
+
 footer a:hover {
   color: #ff4b4b;
 }
