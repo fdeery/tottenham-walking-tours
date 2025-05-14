@@ -184,5 +184,9 @@ footer a:hover {
   ul li {
     font-size: 1rem;
   }
+
+  .hero-image img {
+    object-position: top;
+  }
   
 }
