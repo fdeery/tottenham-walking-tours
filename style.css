@@ -137,14 +137,19 @@ footer a:hover {
   color: #ff4b4b;
 }
 
+.hero-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
 .hero-image img {
+  display: block;
   width: 100%;
   height: auto;
   max-height: 600px;
   object-fit: cover;
   object-position: bottom;
-  display: block;
-  margin: 0 auto;
 }
 
 /* =============================
