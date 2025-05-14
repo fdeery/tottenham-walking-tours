@@ -141,6 +141,7 @@ footer a:hover {
   height: auto;
   max-height: 600px;
   object-fit: cover;
+  object-position: bottom;
   display: block;
   margin: 0 auto;
 }
