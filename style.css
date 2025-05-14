@@ -52,12 +52,11 @@ nav a:hover {
 
 main {
   max-width: 900px;
-  margin: 1rem;
-  padding: 1.5rem 2rem; /* top padding compensates for fixed header */
+  margin: 1rem auto;
+  padding: 1.5rem 2rem;
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
-  align: center;
 }
 
 .hero h2 {
@@ -139,12 +138,13 @@ footer a:hover {
 }
 
 .hero-image img {
-  display: block;
   width: 100%;
   height: auto;
   max-height: 600px;
   object-fit: cover;
-  object-position: bottom;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /* =============================
