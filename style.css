@@ -52,7 +52,7 @@ nav a:hover {
 
 main {
   max-width: 900px;
-  margin: 1;
+  margin: 1rem;
   padding: 1.5rem 2rem; /* top padding compensates for fixed header */
   background-color: white;
   border-radius: 6px;
