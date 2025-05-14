@@ -52,7 +52,7 @@ nav a:hover {
 
 main {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 1;
   padding: 1.5rem 2rem; /* top padding compensates for fixed header */
   background-color: white;
   border-radius: 6px;
@@ -178,6 +178,7 @@ footer a:hover {
     padding: 7rem 1rem 2rem;
     box-shadow: none;
     border-radius: 0;
+    margin: 0 auto;
   }
 
   ul li {
