@@ -50,53 +50,60 @@ nav a:hover {
   color: #ff6b6b;
 }
 
-/* The subnavigation menu */
+/* Subnav container */
 .subnav {
-  float: left;
-  overflow: hidden;
+  position: relative;
+  display: inline-block;
 }
 
 /* Subnav button */
-.subnav .subnavbtn {
-  font-size: 16px;
+.subnavbtn {
+  background-color: inherit;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
   font-family: inherit;
-  margin: 0;
+  letter-spacing: 0.5px;
 }
 
-/* Add a red background color to navigation links on hover */
-.subnav:hover .subnavbtn {
-  background-color: red;
-}
-
-/* Style the subnav content - positioned absolute */
+/* Subnav content (dropdown) */
 .subnav-content {
   display: none;
   position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+  background-color: #1f2a44;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1001;
 }
 
-/* Style the subnav links */
+/* Subnav links */
 .subnav-content a {
-  float: left;
   color: white;
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 1rem;
 }
 
-/* Add a grey background color on hover */
+/* Hover effects */
 .subnav-content a:hover {
+  background-color: #2d3a59;
   color: #ff6b6b;
 }
 
-/* When you move the mouse over the subnav container, open the subnav content */
+/* Show the dropdown menu on hover */
 .subnav:hover .subnav-content {
   display: block;
+}
+
+/* Optional hover styling for subnav button */
+.subnav:hover .subnavbtn {
+  color: #ff6b6b;
 }
 
 main {
