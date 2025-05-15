@@ -137,18 +137,17 @@ footer a:hover {
 
 .hero-image {
   width: 100%;
-  height: auto;
+  height: 400px; /* or however tall you want it */
   overflow: hidden;
+  position: relative;
 }
 
 .hero-image img {
   width: 100%;
-  height: auto;
-  max-height: 600px;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center bottom; /* This anchors from the bottom */
   display: block;
-  margin: 0 auto;
 }
 
 form {
@@ -233,8 +232,12 @@ form button:hover {
     font-size: 1rem;
   }
 
+  .hero-image {
+    height: 250px;
+  }
+
   .hero-image img {
-    object-position: top;
+    object-position: center bottom;
   }
   
 }
