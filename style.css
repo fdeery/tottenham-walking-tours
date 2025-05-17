@@ -208,7 +208,7 @@ footer a:hover {
 
 .hero-image {
   width: 100vw;
-  height: calc(100dvh - 1012px); /* Subtract header height */
+  height: calc(100dvh); /* Subtract header height */
   display: flex;
   justify-content: center;
   align-items: center;
