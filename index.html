@@ -40,6 +40,18 @@
   </script>
   
   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector("nav.main-nav");
+  
+      toggle.addEventListener("click", function () {
+        const isOpen = nav.classList.toggle("show");
+        toggle.setAttribute("aria-expanded", isOpen);
+      });
+    });
+  </script>
+  
+  <script>
     fetch('footer.html')
       .then(response => response.text())
       .then(data => {
