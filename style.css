@@ -274,6 +274,7 @@ form button:hover {
 
 li {
   display:flex;
+  list-style: armenian;
 }
 
 /* =============================
