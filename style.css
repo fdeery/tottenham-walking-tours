@@ -302,9 +302,5 @@ form button:hover {
     object-position: center top;
     padding-top: 0;
   }
-
- .hero-image {
-    height: 300px; /* You can adjust height as needed */
-  }
   
 }
