@@ -8,7 +8,9 @@
 </head>
 
 <body>
+
   <div id="site-header"></div>
+
   <main>
     <section class="hero">
       <h2>What do you think of Tottenham?</h2>
@@ -43,22 +45,6 @@
       .then(data => {
         document.getElementById('site-footer').innerHTML = data;
       });
-  </script>
-
-  <script>
-    function adjustHeroHeight() {
-      const header = document.querySelector("header");
-      const heroImage = document.querySelector(".hero-image");
-
-      if (header && heroImage) {
-        const headerHeight = header.offsetHeight;
-        const vh = window.innerHeight;
-        heroImage.style.height = `${vh - headerHeight}px`;
-      }
-    }
-
-    window.addEventListener("load", adjustHeroHeight);
-    window.addEventListener("resize", adjustHeroHeight);
   </script>
   
   <div id="site-footer"></div>
