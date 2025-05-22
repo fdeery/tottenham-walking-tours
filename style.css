@@ -13,11 +13,10 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(31, 42, 68, 0.85); /* semi-transparent background */
+  background-color: rgba(31, 42, 68); /* semi-transparent background */
   color: white;
   padding: 1rem;
   text-align: center;
-  z-index: 1000;
 }
 
 header h1 {
@@ -285,7 +284,7 @@ form button:hover {
     padding: 1rem 1rem 2rem;
     box-shadow: none;
     border-radius: 0;
-    margin: 0 auto;
+    margin: 0 auto; 
   }
 
   ul li {
