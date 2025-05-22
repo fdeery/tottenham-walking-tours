@@ -276,6 +276,19 @@ form button:hover {
   background-color: #ff4b4b;
 }
 
+/* Hamburger Button */
+.menu-toggle {
+  display: none;
+  background: none;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
+}
 
 /* =============================
    MOBILE STYLES
@@ -315,6 +328,40 @@ form button:hover {
   .hero-image img {
     object-position: center top;
     padding-top: 0;
+  }
+  
+  .menu-toggle {
+    display: block;
+  }
+
+  nav.main-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #1f2a44;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+
+  nav.main-nav.show {
+    display: flex;
+  }
+
+  nav.main-nav a {
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .subnav-content {
+    position: static;
+    box-shadow: none;
+    background-color: #2d3a59;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
   }
   
 }
