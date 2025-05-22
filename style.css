@@ -1,3 +1,10 @@
+/* Global box-sizing to avoid overflow from padding */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Base Styles */
 body {
   margin: 0;
@@ -12,6 +19,7 @@ body {
 header {
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
   background-color: rgba(31, 42, 68); /* semi-transparent background */
   color: white;
