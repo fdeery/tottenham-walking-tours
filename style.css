@@ -208,8 +208,7 @@ footer a:hover {
 .hero-image {
   position: relative;
   width: 100%;
-  max-height: 483px; /* You can adjust height as needed */
-  overflow: hidden;
+  overflow: auto;
   aspect-ratio: auto 1/3 ;
 }
 
