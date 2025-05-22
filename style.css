@@ -22,10 +22,11 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: rgba(31, 42, 68); /* semi-transparent background */
+  background-color: rgba(31, 42, 68);
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
+  z-index: 1000;
 }
 
 header h1 {
@@ -221,7 +222,7 @@ footer a:hover {
 .hero-image img {
   width: 100%;
   object-fit: cover;
-  display: block;
+  display: ;
 }
 
 form {
