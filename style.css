@@ -14,7 +14,6 @@ body {
   font-style: normal;
   background-color: #fafafa;
   color: #4a4a4a;
-  z-index: 0;
 }
 
 header {
@@ -357,7 +356,6 @@ form button:hover {
   }
 
   .subnav-content {
-    position: static;
     box-shadow: none;
     background-color: #2d3a59;
   }
