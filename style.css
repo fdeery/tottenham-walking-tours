@@ -231,7 +231,7 @@ width: 100%;
 height: auto;
 object-fit: cover;
 display: block;
-margin-top: 5rem; 
+margin-top: 7.1rem; 
 }
 
 form {
@@ -329,6 +329,7 @@ font-size: 1rem;
 .hero-image img {
 object-position: center top;
 padding-top: 0;
+margin-top: 5rem;
 }
 
   .menu-toggle {
