@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -130,11 +130,12 @@ nav a:hover {
 
 main {
   max-width: 900px;
-  margin: 1rem auto;
+  margin: 5rem auto 1rem; /* push it down from fixed header */
   padding: 1.5rem 2rem;
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+  position: relative; /* add this to enable z-index to apply */
   z-index: 0;
 }
 
