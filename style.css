@@ -61,7 +61,6 @@ nav a {
   line-height: 1.5; /* Add to help match the height of <a> */
   vertical-align: middle; /* Align with other nav items */
   transition: color 0.3s ease;
-  z-index: 1000;
 }
 
 nav a:hover {
