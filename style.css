@@ -130,7 +130,7 @@ nav a:hover {
 
 main {
   max-width: 900px;
-  margin: 5rem auto 1rem; /* push it down from fixed header */
+  margin: 1 auto 1rem; /* push it down from fixed header */
   padding: 1.5rem 2rem;
   background-color: white;
   border-radius: 6px;
